@@ -1,0 +1,48 @@
+body {
+    background-image: url('http://img.webme.com/pic/w/webcp/bge01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img {
+    position: absolute;
+    left: 24%;
+    top: 10px;
+}
+
+.container-center {
+    width: 70%;
+    padding: 150px 0px 0px 150px;
+}
+
+h3 {
+    color: lightslategrey;
+    margin-left: 5px;
+}
+
+h1 {
+    font-size: 70px;
+    color: white;
+}
+
+.btn-new {
+    height: 50px;
+    width: 150px;
+    margin-left: 10px;
+    margin-top: 2%;
+    border-radius: 8px;
+    color: white;
+    border: solid 0px transparent;
+    background-color: #1fd1f9;
+    background-image: linear-gradient(315deg, #1fd1f9 0%, #b621fe 74%);
+    transition: all 0.5s;
+}
+
+.btn-new:hover {
+    background-color: #1a9cb9;
+    background-image: linear-gradient(315deg, #24aecd 0%, #9b1eda 74%);
+}
+
+a {
+    color: white;
+}
